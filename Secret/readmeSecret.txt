@@ -1,0 +1,1 @@
+La carpeta secret es por tener un easter egg en la página, el codigo no es mio, lo use para probar nada más, es un accesorio.

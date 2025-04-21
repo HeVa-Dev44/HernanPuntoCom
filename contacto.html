@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Hernán Valderrama" />
-    <meta name="description" content="Sitio web para proyecto de LMSGI" />
+    <meta name="description" content="Sitio web para proyecto de LMSGI. Aqui se puede contactar con el desarrollador." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Styles/Styles.css" hreflang="css" />
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
@@ -27,22 +27,44 @@
       <section class="descContact">
         <h1>Contacta ahora con nosotros</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, blanditiis? Laborum molestiae sit itaque dolores. Porro minima laudantium magni aspernatur molestiae ut reprehenderit blanditiis saepe eveniet eum, mollitia laboriosam corporis!</p>
+        <img src=".\Images\snoopDogg.jpg" alt="El negro que fuma" width="200px">
       </section>
       <form class="contactoForm">
+        <!--Nombre-->
         <label for="nombre">Nombre</label>
         <input type="text">
         
+        <!--Apellido-->
         <label for="apellido">Apellido</label>
         <input type="text">
 
+        <!--Fecha de nacimiento-->
         <label for="fechaNac">Fecha de nacimiento</label>
-        <input type="text">
+        <input type="date">
 
+        <!--Numero de la tarjeta-->
         <label for="numTar">Numero de la tarjeta de crédito/débito</label>
         <input type="text">
 
+        <!--Codigo de seguridad de la tarjeta-->
         <label for="csv">Codigo de seguridad</label>
         <input type="number">
+
+        <!--Fecha de expiracion-->
+        <label for="fechaExp">Fecha de expiracion</label>
+        <input type="date">        
+
+        <!--Selector de color-->
+        <label for="color">Tu color favorito?</label>
+        <input type="color" id="color" name="color">
+
+        <!--Caja de comentarios-->
+        <label for="Comentarios">Comentarios</label>
+        <textarea name="cajaComentarios" id="comentarios" rows="4" cols="80"></textarea>
+
+        <!--Enviar formulario-->
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
       </form>
     </div>
 
