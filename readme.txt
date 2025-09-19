@@ -1,3 +1,3 @@
-Entrar a "Pages" y abrir "index.html" con un navegador (click derecho y abrir con...)
+Pagina personal/portfolio de pruebas. (?)
 
 Like y suscribirse para mas contenido pirata.
